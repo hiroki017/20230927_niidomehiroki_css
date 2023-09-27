@@ -1,0 +1,64 @@
+header{
+    position: sticky;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+}
+
+.headerarr{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px;
+    line-height: 24px;
+}
+
+.titl{
+    color: rgb(3, 3, 71);
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    margin-left: 30px;
+    font-weight: bold;
+    color: rgb(3, 3, 71);
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    position: absolute;
+}
+
+.sml{
+    font-size: 50px;
+    position:relative;
+    top:200px;
+}
+
+.box{
+    background: rgb(30, 11, 108);
+    width: 140vh;
+    height: 20vh;
+    position: relative;
+        top: 140px;
+    background-size: cover;
+}
+
+.image{
+    background-image: url("firstview.jpeg");
+    width: 100vh;
+    height: 50vh;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
