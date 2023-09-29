@@ -1,3 +1,7 @@
+body{
+    height: 400px
+}
+
 header{
     position: sticky;
         top: 0;
@@ -34,31 +38,32 @@ a{
     text-decoration: none;
 }
 
-main {
+.inner{
     width: 100%;
-    position: absolute;
+    height: 300px;
 }
 
 .sml{
-    font-size: 50px;
+    font-size: 45px;
     position:relative;
-    top:200px;
+    top:55px;
 }
 
 .box{
     background: rgb(30, 11, 108);
-    width: 140vh;
-    height: 20vh;
+    width: 70%;
+    height: 40%;
     position: relative;
-        top: 140px;
+        top: 10px;
     background-size: cover;
 }
 
-.image{
-    background-image: url("firstview.jpeg");
-    width: 100vh;
-    height: 50vh;
+
+
+.imagega{
+    width: 40%;
+    height: 30%;
     position: absolute;
-    right: 0;
-    top: 10px;
+        right: 0;
+        top: 60px;
 }
